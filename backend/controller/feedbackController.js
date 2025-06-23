@@ -21,5 +21,5 @@ const getAllFeedback = async (req, res) => {
     res.status(500).json({ error: "Could not fetch feedback" });
   }
 };
-
 module.exports = { createFeedback, getAllFeedback };
+
