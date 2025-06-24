@@ -84,3 +84,13 @@ Dashboard component: Dashboard.jsx
  Author
 Made by ["Ujjwal Kumar"]
 For assignment only.
+```
+Snaps
+
+![image](https://github.com/user-attachments/assets/208f2f28-eeb0-419e-b189-87372be81718)
+
+
+![image](https://github.com/user-attachments/assets/f66fd18f-1496-450a-bcc0-d5f10b1cb835)
+![image](https://github.com/user-attachments/assets/28a69da2-af46-434a-a467-7934ea3c0c6a)
+
+
