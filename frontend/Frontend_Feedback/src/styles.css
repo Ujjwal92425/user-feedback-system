@@ -1,0 +1,86 @@
+/* styles.css */
+*{
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+body {
+  font-family: sans-serif;
+  background-color: #003f5c;
+  margin: 0;
+  padding: 0;
+  
+}
+h1{
+ color: #003f5c;
+ text-shadow: 1px 1px 2px black;
+}
+h3{
+  color: black;
+}
+
+.container {
+  max-width: 800px;
+  margin: 1rem auto;
+  padding: 2rem;
+  background-color: #f0ead2;
+  box-shadow: 2px 2px 10px rgb(0, 145, 255);
+  border-radius: 5px;
+}
+
+form,
+ul {
+  margin-top: 2rem;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #01448c;
+}
+
+hr {
+  margin: 2rem 0;
+  border: 0.5px solid #ddd;
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 1rem;
+  }
+
+  input,
+  textarea,
+  select,
+  button {
+    font-size: 0.95rem;
+    padding: 10px;
+  }
+}
