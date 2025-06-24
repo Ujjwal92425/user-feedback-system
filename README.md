@@ -2,7 +2,7 @@
 
 A full-stack application to collect and manage user feedback.
 
-## 📦 Technologies Used
+##  Technologies Used
 
 - **Frontend**: React (Vite), Formik, Yup
 - **Backend**: Node.js, Express
@@ -12,29 +12,15 @@ A full-stack application to collect and manage user feedback.
 
 ## 🗂 Folder Structure
 
-user-feedback-system/
-├── backend/
-│ ├── config/
-│ ├── controllers/
-│ ├── models/
-│ ├── routes/
-│ └── server.js
-├── Frontend_Feedback/
-│ ├── src/
-│ │ ├── components/
-│ │ │ ├── Form.jsx
-│ │ │ └── Dashboard.jsx
-│ │ ├── styles.css
-│ │ └── App.jsx
-│ └── index.html
-└── README.md
+![image](https://github.com/user-attachments/assets/b481ae28-a14e-4503-82ac-e063e044e918)
+
 
 
 ---
 
-## 🚀 How to Run This Project Locally
+##  How to Run This Project Locally
 
-### 📌 Prerequisites
+###  Prerequisites
 
 Make sure you have:
 - Node.js installed
@@ -58,7 +44,7 @@ node server.js
 Server will run at:
 http://localhost:5000
 
-🎨 Frontend Setup
+ Frontend Setup
 cd Frontend_Feedback
 npm install
 npm run dev
@@ -66,7 +52,7 @@ npm run dev
 Frontend will run at:
 http://localhost:5173
 
-✍️ Features
+ Features
 Submit feedback (with validation)
 
 Feedback form built using Formik and Yup
@@ -79,13 +65,13 @@ Sort by date: Newest or Oldest
 
 Responsive layout (mobile + desktop)
 
-🔗 API Endpoints
+ API Endpoints
 | Method | Endpoint      | Description              |
 | ------ | ------------- | ------------------------ |
 | POST   | /api/feedback | Submit feedback          |
 | GET    | /api/feedback | Get all feedback entries |
 
-📝 Notes
+ Notes
 All code is written from scratch for academic purposes.
 
 Frontend components are located in: Frontend_Feedback/src/components/
@@ -95,6 +81,6 @@ Form component: Form.jsx
 Dashboard component: Dashboard.jsx
 
 
-👤 Author
+ Author
 Made by ["Ujjwal Kumar"]
 For assignment only.
