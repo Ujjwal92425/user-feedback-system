@@ -1,0 +1,76 @@
+Application Flow 
+
+Application Flow:
+1. Frontend (React)
+Form.jsx
+Collects name, email, feedback, and category.
+
+Validates data using Formik + Yup.
+
+Sends a POST request to backend via fetch.
+
+Dashboard.jsx
+On page load (useEffect), it fetches all feedback using a GET request.
+
+Provides:
+
+Category Filter (Bug / Suggestion / Feature)
+
+Date Sort (Newest / Oldest)
+
+Displays feedback entries accordingly.
+
+2. Backend (Express)
+/models/Feedback.js
+Mongoose schema for feedback:
+
+
+{
+  name, 
+  email, 
+  feedback, 
+  category, 
+  createdAt
+}
+/controller/feedbackController.js
+createFeedback(): Saves feedback to MongoDB.
+
+getAllFeedback(): Fetches all feedback sorted by createdAt.
+
+/routes/feedbackRoutes.js
+POST /api/feedback → Submit new feedback
+
+GET /api/feedback → Get all feedback (sorted)
+
+server.js
+Loads environment variables.
+
+Connects to MongoDB.
+
+Mounts /api routes for feedback.
+
+Runs Express server on a given port.
+
+Data Flow Summary:
+User submits form on frontend.
+
+Data is sent to:
+POST http://localhost:5000/api/feedback
+
+Express backend handles it and saves in MongoDB.
+
+On load, Dashboard calls:
+GET http://localhost:5000/api/feedback
+
+Dashboard filters/sorts and renders the data.
+
+Features Implemented:
+Form submission with validation
+
+Save feedback to database
+
+Display feedback on dashboard
+
+Sort by date (newest/oldest)
+
+Filter by category
