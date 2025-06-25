@@ -52,6 +52,8 @@ npm run dev
 Frontend will run at:
 http://localhost:5173
 
+Refresh the page to see the latest data
+
  Features
 Submit feedback (with validation)
 
